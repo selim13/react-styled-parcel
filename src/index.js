@@ -18,9 +18,8 @@ class App extends React.Component {
     const { stuff } = this.state;
     return (
       <div>
-        <Hello>
-Welcome to react
-        </Hello>
+        <Hello>Welcome to react</Hello>
+        {stuff}
       </div>
     );
   }
